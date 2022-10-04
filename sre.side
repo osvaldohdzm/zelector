@@ -1,0 +1,39 @@
+{
+  "id": "ade32f99-7661-4984-856f-b85b5d20e2f7",
+  "version": "2.0",
+  "name": "sre",
+  "url": "https://intgraqa.sre.gob.mx",
+  "tests": [{
+    "id": "58f4b320-b1f4-481a-84fb-a9844ec67965",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6c2d65bc-70aa-420a-ac19-fa650ee791b6",
+      "comment": "",
+      "command": "open",
+      "target": "/ingresar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b8d98ab-ea16-44c6-b124-aaf39c82d6f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_fields__user .el-input__inner",
+      "targets": [
+        ["css=.login_fields__user .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "69979b67-e529-4d71-9b3b-b715335c1f69",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["58f4b320-b1f4-481a-84fb-a9844ec67965"]
+  }],
+  "urls": ["https://intgraqa.sre.gob.mx/"],
+  "plugins": []
+}

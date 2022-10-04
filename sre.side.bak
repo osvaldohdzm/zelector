@@ -1,0 +1,112 @@
+{
+  "id": "ade32f99-7661-4984-856f-b85b5d20e2f7",
+  "version": "2.0",
+  "name": "sre",
+  "url": "https://intgraqa.sre.gob.mx",
+  "tests": [{
+    "id": "58f4b320-b1f4-481a-84fb-a9844ec67965",
+    "name": "Untitled",
+    "commands": [{
+      "id": "6c2d65bc-70aa-420a-ac19-fa650ee791b6",
+      "comment": "",
+      "command": "open",
+      "target": "/ingresar",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b8d98ab-ea16-44c6-b124-aaf39c82d6f9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_fields__user .el-input__inner",
+      "targets": [
+        ["css=.login_fields__user .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b5f259ae-f5e0-4d9d-ac06-d4eb95906d83",
+      "comment": "",
+      "command": "type",
+      "target": "css=.login_fields__user .el-input__inner",
+      "targets": [
+        ["css=.login_fields__user .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='text']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "asdasd"
+    }, {
+      "id": "491bd1f0-6fc8-421f-b5c0-ae12f21e2854",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_fields__password .el-input__inner",
+      "targets": [
+        ["css=.login_fields__password .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb261e5c-993b-44fc-9062-4dc855462c86",
+      "comment": "",
+      "command": "type",
+      "target": "css=.login_fields__password .el-input__inner",
+      "targets": [
+        ["css=.login_fields__password .el-input__inner", "css:finder"],
+        ["xpath=//input[@type='password']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "asdasd"
+    }, {
+      "id": "7eeca803-59b2-4d84-ae35-4b924947b098",
+      "comment": "",
+      "command": "click",
+      "target": "css=.login_fields__submit > button",
+      "targets": [
+        ["css=.login_fields__submit > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7acd15e9-7abb-47b9-910f-cdbdb2a6c9b7",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.login_fields__submit > button",
+      "targets": [
+        ["css=.login_fields__submit > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bb8f67b5-49dc-4f0d-bd71-84090b83a301",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.login_fields__submit > button",
+      "targets": [
+        ["css=.login_fields__submit > button", "css:finder"],
+        ["xpath=(//button[@type='button'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "884883b3-5c2c-48ea-aac4-b4b4f2e548d6",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "69979b67-e529-4d71-9b3b-b715335c1f69",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["58f4b320-b1f4-481a-84fb-a9844ec67965"]
+  }],
+  "urls": ["https://intgraqa.sre.gob.mx/"],
+  "plugins": []
+}
